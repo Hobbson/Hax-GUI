@@ -4,7 +4,7 @@ import os
 try:
     import keyboard
 except ImportError:
-    print ("ayo imma try get the keyboard ting dw fam")
+    print ("Attempting to install keyboard module")
     os.system("python -m pip install keyboard")
 
 import tkinter as tk
